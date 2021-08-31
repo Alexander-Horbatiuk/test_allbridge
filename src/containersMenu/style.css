@@ -1,0 +1,24 @@
+.navMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.navLink {
+    text-align: center;
+    width: 50%;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 0 0 16px;
+    color: #676767;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 20px;
+    transition: .1s;
+}
+
+.active {
+    border-bottom: 1px solid #8c86f5;
+    color: #000;
+    font-weight: bold;
+}
