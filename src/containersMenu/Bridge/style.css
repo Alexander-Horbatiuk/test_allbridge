@@ -1,16 +1,14 @@
 .content {
-    /*width: 100%;*/
     height: 500px;
     background: #fff;
     border-radius: 15px;
-    padding: 32px;
 }
 
 .title {
     display: flex;
     align-items: center;
     margin: 0;
-
+    padding: 32px;
 }
 
 .titleNum {
@@ -30,4 +28,24 @@
 .titleText {
     font-size: 30px;
     font-weight: lighter;
+}
+
+.coinLi {
+    display: flex;
+    align-items: center;
+    gap:  30px;
+}
+
+.coinImg {
+    width: 30px;
+    height: 30px;
+}
+
+.coinLi, .coinName {
+    margin: 0;
+}
+
+
+{
+    --primary-light-color: #b8b5f8;
 }
